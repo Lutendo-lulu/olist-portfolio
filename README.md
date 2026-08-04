@@ -19,7 +19,7 @@ Built in Power BI, connected to a star schema exported from Databricks. Screensh
 **Note on sample size:** the SQL analysis above runs on the full 96,470-row dataset directly in Databricks. The Power BI dashboard, however, is built on a 1,000-row export sample (a Databricks Free Edition export limit) — so the dashboard's on-screen numbers (e.g. "1K Total Orders", 6% late rate) are illustrative of the same patterns at smaller scale, not an exact match to the full-dataset findings above. The headline pattern (review score cliff at the point of lateness) holds at both scales.
 
 ### Executive Summary
-![Executive Summary](Screenshot 2026-08-04 230934.png) 
+![Executive Summary](screenshots/page1_executive_summary.png)
 
 ### Geography
 ![Geography](screenshots/page2_geography.png)
